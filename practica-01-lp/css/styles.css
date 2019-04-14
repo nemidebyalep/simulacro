@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    background-image: url(../images/pexels-photo-1120858.jpeg);
+    -webkit-background-size: cover;
+    background-size: cover; 
+    background-attachment: fixed;
+}
+body{
+    width: 1100px;    
+    margin:auto;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: black;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+main{   
+    width: 1000px;
+    float: auto;
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+}
+
+article{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 49%;
+    float: left;
+    max-width: 50%;
+    margin: auto;
+    box-shadow: 0 0 20px 1px turquoise;
+    background: rgba(0, 0, 0, 0.5);
+    color: aqua;
+}
+
+aside{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 49%;
+    float: right;
+    max-width: 50%;
+    margin: auto;
+    box-shadow: 0 0 20px 1px tomato;
+}
+
+.input_form{
+    margin-top: 10px;
+    background: transparent;
+    border: 3px solid rgba(245, 13, 64, 0.349);
+    color: yellow;
+}
+
+.left-bottom{
+    margin-top: 10px;
+    border-top: 1px solid aqua;
+    padding-top: 20px;
+}
+
+input[type="button"]{
+    margin-top: 20px;
+    margin-left: 70%;
+    vertical-align: bottom;
+    float: left;
+    background: crimson;
+}
+
+#save{
+    margin-left: 5px;
+}
+
+table{
+    width: 95%;
+    margin: auto;
+    
+}
